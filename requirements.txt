@@ -1,0 +1,6 @@
+pandas
+pyarrow
+pyyaml
+networkx
+streamlit
+google-genai
