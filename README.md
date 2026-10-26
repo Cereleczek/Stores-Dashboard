@@ -21,6 +21,7 @@ so records with the same values in 3 of the 4 fields are the same person (connec
 | STORE4 | 2025-11-24, 2025-11-17, 2025-11-28, 2025-11-13, 2025-09-21 | 2850         | 299         | Emil Rempel, Heriberto Kutch, Merle Rice | [53347, 54809]        |
 | STORE5 | 2025-10-20, 2025-11-28, 2025-09-27, 2025-10-17, 2025-12-05 | 2987         | 311         | Dulcie Bode                              | [52895, 53969]        |
 
+
 ## Run
 
 ```bash
@@ -28,5 +29,3 @@ pip install -r requirements.txt
 export GEMINI_API_KEY=your-key
 streamlit run app.py
 ```
-
-On Streamlit Community Cloud add `GEMINI_API_KEY = "your-key"` in the app's Secrets.
